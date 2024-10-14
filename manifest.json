@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "MPV sender",
+  "description": "send youtube video to mpv",
+  "version": "1.0",
+  "action": {
+    "default_icon": "images/mpv-sender.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
