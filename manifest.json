@@ -6,7 +6,7 @@
   "action": {
     "default_icon": "images/mpv-sender.png"
   },
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting", "contextMenus"],
   "background": {
     "service_worker": "service-worker.js"
   }
